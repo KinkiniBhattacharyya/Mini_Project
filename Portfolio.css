@@ -1,0 +1,165 @@
+.head_link:hover{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+.section__hero, .section__hero .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__hero {
+    background: radial-gradient(#2f3640 15%, transparent 16%) 0 0, radial-gradient(#2f3640 15%, transparent 16%) 8px 8px, radial-gradient(hsla(0, 0%, 100%, 0.1) 15%, transparent 20%) 0 1px, radial-gradient(hsla(0, 0%, 100%, 0.1) 15%, transparent 20%) 8px 9px;
+    background-color: #353b48;
+    background-size: 16px 16px;
+    flex-direction: column;
+    box-shadow: 0 3px #000;
+}
+.section {
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+#hero-title{
+    color: rgba(245, 245, 245, 0.849);
+}
+
+#mail{
+    width: 50px;
+    height: 40px;
+}
+
+#github{
+    width: 50px;
+    height: 40px;
+    border: 20px;
+}
+
+#linkedIn{
+    width: 50px;
+    height: 40px;
+    border: 20px;
+}
+
+.link{
+    padding: 20px;
+}
+
+#skill{
+    background-image: url(image/code2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-height: 100vw;
+}
+
+.skillHead{
+    padding: 60px;
+    color: whitesmoke;
+    font-family: Georgia;
+    opacity: 90%;
+}
+
+.skillLogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.skillLogo>*{
+    flex:1 1;
+}
+
+.html{
+    width: 200px;
+    height: 200px;
+    /*border: 20px;*/
+}
+.css{
+    width: 230px;
+    height: 200px;
+    /*border: 20px;*/
+}
+.bs{
+    width: 250px;
+    height: 300px;
+    /*border: 20px;
+    padding-top: 30px;*/
+}
+.js{
+    width: 200px;
+    height: 200px;
+    /*border: 20px;
+    padding-top: 30px;
+    padding-left: 30px;*/
+}
+.sql{
+    width: 180px;
+    height: 200px;
+    margin-left: 20px;
+    /*border: 20px;
+    padding-top: 30px;*/
+}
+.java{
+    width: 200px;
+    height: 200px;
+    /*border: 20px;*/
+}
+
+#project{
+    background-color: rgba(40, 46, 58, 0.8);
+    border: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.projectHead{
+    color: whitesmoke;
+    font-family: Georgia;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.pro1{
+    background:transparent;
+    border: rgb(187, 163, 163) solid 1px;
+    color: rgb(187, 163, 163);
+}
+
+.pro1:hover{
+    background-color: rgb(187, 163, 163);
+    color: black;
+}
+.proHead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+}
+.txt{
+    font-size: larger;
+    font-family: Garamond;
+    color: rgba(245, 245, 245, 0.7);
+    padding-top: 10px;
+    font-weight: bold;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+footer{
+    background-color: #000;
+}
+.foot{
+    padding: 30px;
+    color:#717377;
+}
